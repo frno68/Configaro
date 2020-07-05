@@ -1,0 +1,538 @@
+<?xml version="1.0" standalone="yes"?>
+<Protocol>
+  <Question ID="2" SortOrder="10" Description="Maximum Peak Ambient Temperature">
+    <Answer ID="2" Description="104 F (40 C)" Selected="True" />
+    <Answer ID="5" Description="122 F (50 C)" Selected="False" />
+  </Question>
+  <Question ID="4" SortOrder="20" Description="Mean 24hr Ambient Temperature">
+    <Answer ID="7" Description="86 F (30 C)" Selected="True" />
+    <Answer ID="9" Description="104 F (40 C)" />
+  </Question>
+  <Question ID="106" SortOrder="30" Description="Minimum Ambient Temperature 222">
+    <Answer ID="237" Description="14 F (-10 C)" Selected="True" />
+    <Answer ID="238" Description="-22 F (-30 C)" />
+    <Answer ID="239" Description="-58 F (-50 C)" />
+  </Question>
+  <Question ID="6" SortOrder="40" Description="Seismic Zone">
+    <Answer ID="10" Description="Zone 2, per UBC 1997" Selected="True" />
+    <Answer ID="11" Description="Zone 4, per UBC 1997" />
+  </Question>
+  <Question ID="7" SortOrder="50" Description="Maximum Wind Speed">
+    <Answer ID="12" Description="90 mph (40 m/s), per UBC 1997" Selected="True" />
+    <Answer ID="13" Description="110 mph (49 m/s), per UBC 1997" />
+  </Question>
+  <Question ID="8" SortOrder="60" Description="Maximum Snow Load">
+    <Answer ID="14" Description="30 psf (146 kg/m2), per UBC 1997" Selected="True" />
+    <Answer ID="16" Description="50 psf (244 kg/m2), per UBC 1997" />
+  </Question>
+  <Question ID="170" SortOrder="70" Description="Site Elevation">
+    <Answer ID="423" Description="less than 1000 m (3300 ft)" Selected="True" />
+    <Answer ID="424" Description="more than 1000 m (3300 ft)" />
+  </Question>
+  <Question ID="63" SortOrder="80" Description="End of Site Data Section">
+    <Answer ID="157" Selected="True" />
+    <Answer ID="502" />
+  </Question>
+  <Question ID="1" SortOrder="90" Description="Substation Configuration">
+    <Answer ID="4" Description="H1" Image="IMAGES_ANSI/STATIONLAYOUT/H1.GIF" Selected="True" />
+    <Answer ID="23" Description="H1 LTB Lite" Image="IMAGES_ANSI/STATIONLAYOUT/H1LITE.GIF" />
+    <Answer ID="1" Description="H2L1" Image="IMAGES_ANSI/STATIONLAYOUT/H2L1.GIF" />
+    <Answer ID="419" Description="H2L2" Image="IMAGES_ANSI/STATIONLAYOUT/H2L2.GIF" />
+    <Answer ID="6" Description="H3L" Image="IMAGES_ANSI/STATIONLAYOUT/H3L.GIF" />
+    <Answer ID="17" Description="R4" Image="IMAGES_ANSI/STATIONLAYOUT/R4.GIF" />
+  </Question>
+  <Question ID="3" SortOrder="100" Description="HV Operating Voltage">
+    <Answer ID="19" Description="138" Selected="True" />
+    <Answer ID="18" Description="115" />
+    <Answer ID="3" Description="69" />
+  </Question>
+  <Question ID="13" SortOrder="110" QuestionType="Linked_Choice" LinkedQuestion="8">
+    <Answer ID="25" Proceed_With="11" Selected="True" />
+    <Answer ID="26" Proceed_With="14" />
+    <Answer ID="27" Proceed_With="12" />
+    <Answer ID="420" Proceed_With="12" />
+    <Answer ID="28" Proceed_With="13" />
+    <Answer ID="29" Proceed_With="13" />
+  </Question>
+  <Question ID="10" SortOrder="120" Description="HV Breaker Type" >
+    <Answer ID="20" Description="Dead Tank" Proceed_With="30" />
+    <Answer ID="21" Description="Live Tank" Proceed_With="16" />
+  </Question>
+  <Question ID="184" SortOrder="130" Description="HV Breaker Type" Proceed_With="30" >
+    <Answer ID="500" Description="Dead Tank" />
+    <Answer ID="501" Description="Live Tank" />
+  </Question>
+  <Question ID="11" SortOrder="140" Description="HV Breaker Type" Proceed_With="30" >
+    <Answer ID="22" Description="Dead Tank" />
+  </Question>
+  <Question ID="12" SortOrder="150" Description="HV Breaker Type" Proceed_With="16" >
+    <Answer ID="24" Description="Live Tank" />
+  </Question>
+  <Question ID="152" SortOrder="160" Description="Major HV Equipment Mounting" >
+    <Answer ID="348" Description="No base skids (traditional construction)" />
+    <Answer ID="349" Description="Skid Based (major equipment only)" />
+  </Question>
+  <Question ID="14" SortOrder="170" Description="System Grounding of HV Network" >
+    <Answer ID="33" Description="Ungrounded" />
+    <Answer ID="32" Description="Impedance" />
+    <Answer ID="30" Description="Solid" />
+  </Question>
+  <Question ID="16" SortOrder="180" QuestionType="Linked_Choice" LinkedQuestion="9" >
+    <Answer ID="34" Proceed_With="19" />
+    <Answer ID="35" Proceed_With="19" />
+    <Answer ID="36" Proceed_With="18" />
+  </Question>
+  <Question ID="17" SortOrder="190" Description="HV BIL (Peak)" Proceed_With="30" >
+    <Answer ID="37" Description="350" />
+  </Question>
+  <Question ID="18" SortOrder="200" Description="HV BIL (Peak)" >
+    <Answer ID="38" Description="650" />
+  </Question>
+  <Question ID="19" SortOrder="210" Description="Maximum HV Short Circuit Capacity" >
+    <Answer ID="39" Description="40" />
+  </Question>
+  <Question ID="62" SortOrder="220" Description="End High Voltage System Section" >
+    <Answer ID="156" />
+  </Question>
+  <Question ID="22" SortOrder="230" Description="MV Equipment Type" >
+    <Answer ID="42" Description="Indoor (Metal Clad) Switchgear" Proceed_With="24" />
+    <Answer ID="49" Description="Outdoor Breakers or Reclosers" Proceed_With="23" />
+  </Question>
+  <Question ID="128" SortOrder="240" Description="MV Bus Arrangement" Proceed_With="25" >
+    <Answer ID="300" Description="Single Main Bus" />
+    <Answer ID="301" Description="Main and Transfer Bus" />
+  </Question>
+  <Question ID="163" SortOrder="250" Description="MV Operating Voltage" Proceed_With="26" >
+    <Answer ID="384" Description="4.16" />
+    <Answer ID="385" Description="12.47" />
+    <Answer ID="386" Description="13.2" />
+    <Answer ID="387" Description="13.8" />
+  </Question>
+  <Question ID="24" SortOrder="260" Description="MV Operating Voltage" >
+    <Answer ID="381" Description="4.16" />
+    <Answer ID="44" Description="12.47" />
+    <Answer ID="51" Description="13.2" />
+    <Answer ID="52" Description="13.8" />
+    <Answer ID="389" Description="24.9" />
+    <Answer ID="382" Description="34.5" />
+  </Question>
+  <Question ID="36" SortOrder="270" QuestionType="Linked_Choice" LinkedQuestion="8" >
+    <Answer ID="84" Proceed_With="27" />
+    <Answer ID="85" Proceed_With="27" />
+    <Answer ID="91" Proceed_With="31" />
+    <Answer ID="421" Proceed_With="27" />
+    <Answer ID="92" Proceed_With="31" />
+    <Answer ID="93" Proceed_With="31" />
+  </Question>
+  <Question ID="39" SortOrder="280" QuestionType="Linked_Choice" LinkedQuestion="22" >
+    <Answer ID="95" Proceed_With="29" />
+    <Answer ID="96" Proceed_With="28" />
+  </Question>
+  <Question ID="131" SortOrder="290" QuestionType="Linked_Choice" LinkedQuestion="128" >
+    <Answer ID="309" Proceed_With="30" />
+    <Answer ID="310" Proceed_With="29" />
+  </Question>
+  <Question ID="28" SortOrder="300" Description="Number of MV Main Breakers" Proceed_With="34" >
+    <Answer ID="61" Description="0, with 2 - 6 feeder breakers" />
+  </Question>
+  <Question ID="29" SortOrder="310" Description="Number of MV Main Breakers" >
+    <Answer ID="63" Description="0, with 2 - 6 feeder breakers" Proceed_With="34" />
+    <Answer ID="65" Description="1, with no feeder breakers" Proceed_With="33" />
+  </Question>
+  <Question ID="30" SortOrder="320" Description="Number of MV Main Breakers" >
+    <Answer ID="66" Description="2" />
+  </Question>
+  <Question ID="127" SortOrder="330" Description="MV Tie Breaker" Proceed_With="35" >
+    <Answer ID="299" Description="1" />
+  </Question>
+  <Question ID="38" SortOrder="340" Description="Total Number of Feeder Breakers" Proceed_With="53" >
+    <Answer ID="94" Description="0" />
+  </Question>
+  <Question ID="35" SortOrder="350" Description="Total Number of Feeder Breakers" Proceed_With="52" >
+    <Answer ID="79" Description="2" />
+    <Answer ID="80" Description="3" />
+    <Answer ID="81" Description="4" />
+    <Answer ID="82" Description="5" />
+    <Answer ID="83" Description="6" />
+  </Question>
+  <Question ID="40" SortOrder="360" QuestionType="Linked_Choice" LinkedQuestion="22" >
+    <Answer ID="97" Proceed_With="36" />
+    <Answer ID="98" Proceed_With="37" />
+  </Question>
+  <Question ID="41" SortOrder="370" Description="Total Number of Feeder Breakers" >
+    <Answer ID="99" Description="4" Proceed_With="38" />
+    <Answer ID="101" Description="5" Proceed_With="39" />
+    <Answer ID="102" Description="6" Proceed_With="30" />
+    <Answer ID="103" Description="7" Proceed_With="41" />
+    <Answer ID="104" Description="8" Proceed_With="42" />
+    <Answer ID="105" Description="9" Proceed_With="43" />
+    <Answer ID="106" Description="10" Proceed_With="44" />
+    <Answer ID="107" Description="11" Proceed_With="45" />
+    <Answer ID="108" Description="12" Proceed_With="46" />
+  </Question>
+  <Question ID="42" SortOrder="380" Description="Total Number of Feeder Breakers" >
+    <Answer ID="100" Description="0" Proceed_With="52" />
+    <Answer ID="110" Description="4" Proceed_With="38" />
+    <Answer ID="111" Description="5" Proceed_With="39" />
+    <Answer ID="112" Description="6" Proceed_With="30" />
+    <Answer ID="113" Description="7" Proceed_With="41" />
+    <Answer ID="114" Description="8" Proceed_With="42" />
+    <Answer ID="115" Description="9" Proceed_With="43" />
+    <Answer ID="116" Description="10" Proceed_With="44" />
+    <Answer ID="117" Description="11" Proceed_With="45" />
+    <Answer ID="118" Description="12" Proceed_With="46" />
+  </Question>
+  <Question ID="43" SortOrder="390" Description="Number of Feeders on Transformer T1" >
+    <Answer ID="119" Description="2" Proceed_With="47" />
+  </Question>
+  <Question ID="45" SortOrder="400" Description="Number of Feeders on Transformer T1" >
+    <Answer ID="129" Description="2" Proceed_With="48" />
+    <Answer ID="137" Description="3" Proceed_With="47" />
+  </Question>
+  <Question ID="46" SortOrder="410" Description="Number of Feeders on Transformer T1" >
+    <Answer ID="130" Description="2" Proceed_With="49" />
+    <Answer ID="138" Description="3" Proceed_With="48" />
+    <Answer ID="139" Description="4" Proceed_With="47" />
+  </Question>
+  <Question ID="47" SortOrder="420" Description="Number of Feeders on Transformer T1" >
+    <Answer ID="131" Description="3" Proceed_With="49" />
+    <Answer ID="140" Description="4" Proceed_With="48" />
+  </Question>
+  <Question ID="48" SortOrder="430" Description="Number of Feeders on Transformer T1" >
+    <Answer ID="132" Description="3" Proceed_With="30" />
+    <Answer ID="141" Description="4" Proceed_With="49" />
+    <Answer ID="142" Description="5" Proceed_With="48" />
+  </Question>
+  <Question ID="49" SortOrder="440" Description="Number of Feeders on Transformer T1" >
+    <Answer ID="133" Description="4" Proceed_With="30" />
+    <Answer ID="143" Description="5" Proceed_With="49" />
+  </Question>
+  <Question ID="50" SortOrder="450" Description="Number of Feeders on Transformer T1" >
+    <Answer ID="134" Description="4" Proceed_With="51" />
+    <Answer ID="144" Description="5" Proceed_With="30" />
+    <Answer ID="145" Description="6" Proceed_With="49" />
+  </Question>
+  <Question ID="51" SortOrder="460" Description="Number of Feeders on Transformer T1" >
+    <Answer ID="135" Description="5" Proceed_With="51" />
+    <Answer ID="146" Description="6" Proceed_With="30" />
+  </Question>
+  <Question ID="52" SortOrder="470" Description="Number of Feeders on Transformer T1" >
+    <Answer ID="136" Description="6" Proceed_With="51" />
+  </Question>
+  <Question ID="53" SortOrder="480" Description="Number of Feeders on Transformer T2" Proceed_With="52" >
+    <Answer ID="147" Description="2" />
+  </Question>
+  <Question ID="54" SortOrder="490" Description="Number of Feeders on Transformer T2" Proceed_With="52" >
+    <Answer ID="148" Description="3" />
+  </Question>
+  <Question ID="55" SortOrder="500" Description="Number of Feeders on Transformer T2" Proceed_With="52" >
+    <Answer ID="149" Description="4" />
+  </Question>
+  <Question ID="56" SortOrder="510" Description="Number of Feeders on Transformer T2" Proceed_With="52" >
+    <Answer ID="150" Description="5" />
+  </Question>
+  <Question ID="57" SortOrder="520" Description="Number of Feeders on Transformer T2" Proceed_With="52" >
+    <Answer ID="151" Description="6" />
+  </Question>
+  <Question ID="64" SortOrder="530" QuestionType="Linked_Choice" LinkedQuestion="22" >
+    <Answer ID="159" Proceed_With="54" />
+    <Answer ID="160" Proceed_With="53" />
+  </Question>
+  <Question ID="67" SortOrder="540" QuestionType="Linked_Choice" LinkedQuestion="25" >
+    <Answer ID="165" />
+    <Answer ID="168" />
+    <Answer ID="169" />
+    <Answer ID="391" />
+    <Answer ID="170" Proceed_With="56" />
+    <Answer ID="383" Proceed_With="56" />
+  </Question>
+  <Question ID="68" SortOrder="550" Description="MV BIL (Peak)" Proceed_With="57" >
+    <Answer ID="171" Description="95" />
+  </Question>
+  <Question ID="69" SortOrder="560" Description="MV BIL (Peak)" Proceed_With="57" >
+    <Answer ID="172" Description="110" />
+  </Question>
+  <Question ID="70" SortOrder="570" Description="MV BIL (Peak)" Proceed_With="57" >
+    <Answer ID="173" Description="200" />
+  </Question>
+  <Question ID="124" SortOrder="580" QuestionType="Linked_Choice" LinkedQuestion="22" >
+    <Answer ID="285" Proceed_With="65" />
+    <Answer ID="286" Proceed_With="58" />
+  </Question>
+  <Question ID="123" SortOrder="590" QuestionType="Linked_Choice" LinkedQuestion="8" >
+    <Answer ID="276" Proceed_With="59" />
+    <Answer ID="281" Proceed_With="59" />
+    <Answer ID="282" Proceed_With="30" />
+    <Answer ID="460" Proceed_With="59" />
+    <Answer ID="283" Proceed_With="30" />
+    <Answer ID="284" Proceed_With="30" />
+  </Question>
+  <Question ID="125" SortOrder="600" QuestionType="Linked_Choice" LinkedQuestion="30" >
+    <Answer ID="287" Proceed_With="61" />
+    <Answer ID="288" Proceed_With="62" />
+  </Question>
+  <Question ID="126" SortOrder="610" QuestionType="Linked_Choice" LinkedQuestion="37" >
+    <Answer ID="289" Proceed_With="62" />
+    <Answer ID="290" Proceed_With="61" />
+    <Answer ID="291" Proceed_With="61" />
+    <Answer ID="292" Proceed_With="61" />
+    <Answer ID="293" Proceed_With="61" />
+    <Answer ID="294" Proceed_With="61" />
+    <Answer ID="295" Proceed_With="61" />
+    <Answer ID="296" Proceed_With="61" />
+    <Answer ID="297" Proceed_With="61" />
+    <Answer ID="298" Proceed_With="61" />
+  </Question>
+  <Question ID="114" SortOrder="620" Description="Feeder Breaker Type" >
+    <Answer ID="251" Description="Vacuum Circuit Breakers" />
+    <Answer ID="250" Description="Automatic Circuit Reclosers" />
+  </Question>
+  <Question ID="169" SortOrder="630" Description="Outgoing Feeder Configuration" >
+    <Answer ID="417" Description="Overhead Lines" />
+    <Answer ID="418" Description="Underground Cable" />
+  </Question>
+  <Question ID="118" SortOrder="640" QuestionType="Linked_Choice" LinkedQuestion="8" >
+    <Answer ID="258" Proceed_With="66" />
+    <Answer ID="259" Proceed_With="66" />
+    <Answer ID="260" Proceed_With="64" />
+    <Answer ID="422" Proceed_With="66" />
+    <Answer ID="261" Proceed_With="64" />
+    <Answer ID="262" Proceed_With="64" />
+  </Question>
+  <Question ID="117" SortOrder="650" Description="MV Synchro-Check Capability" Proceed_With="66" >
+    <Answer ID="257" Description="Yes" />
+    <Answer ID="256" Description="No" />
+  </Question>
+  <Question ID="72" SortOrder="660" Description="MV Arc Protection" >
+    <Answer ID="175" Description="Yes" />
+    <Answer ID="178" Description="No" />
+  </Question>
+  <Question ID="73" SortOrder="670" Description="End of Medium Voltage Section" >
+    <Answer ID="177" />
+  </Question>
+  <Question ID="171" SortOrder="680" QuestionType="Linked_Choice" LinkedQuestion="22" >
+    <Answer ID="426" Proceed_With="68" />
+    <Answer ID="427" Proceed_With="74" />
+  </Question>
+  <Question ID="175" SortOrder="690" QuestionType="Linked_Choice" LinkedQuestion="9" >
+    <Answer ID="442" Proceed_With="69" />
+    <Answer ID="443" Proceed_With="69" />
+    <Answer ID="444" Proceed_With="30" />
+  </Question>
+  <Question ID="172" SortOrder="700" QuestionType="Linked_Choice" LinkedQuestion="24" >
+    <Answer ID="429" Proceed_With="73" />
+    <Answer ID="430" Proceed_With="71" />
+    <Answer ID="431" Proceed_With="71" />
+    <Answer ID="432" Proceed_With="71" />
+  </Question>
+  <Question ID="164" SortOrder="710" QuestionType="Linked_Choice" LinkedQuestion="24" >
+    <Answer ID="394" Proceed_With="73" />
+    <Answer ID="395" Proceed_With="72" />
+    <Answer ID="396" Proceed_With="72" />
+    <Answer ID="397" Proceed_With="72" />
+  </Question>
+  <Question ID="173" SortOrder="720" Description="Transformer Power Rating for 138/15kV Class" >
+    <Answer ID="433" Description="6/8/10" Proceed_With="81" />
+    <Answer ID="466" Description="7.2/9.6/12" Proceed_With="81" />
+    <Answer ID="438" Description="9/12/15" Proceed_With="81" />
+    <Answer ID="467" Description="9.6/12.8/16" Proceed_With="81" />
+    <Answer ID="439" Description="12/16/20" Proceed_With="81" />
+    <Answer ID="440" Description="15/20/25" Proceed_With="81" />
+    <Answer ID="441" Description="30/40/50" Proceed_With="83" />
+  </Question>
+  <Question ID="166" SortOrder="730" Description="Transformer Power Rating for 69/15kV Class" Proceed_With="81" >
+    <Answer ID="404" Description="6/8/10" />
+    <Answer ID="468" Description="7.2/9.6/12" />
+    <Answer ID="405" Description="9/12/15" />
+    <Answer ID="469" Description="9.6/12.8/16" />
+    <Answer ID="406" Description="12/16/20" />
+    <Answer ID="407" Description="15/20/25" />
+  </Question>
+  <Question ID="168" SortOrder="740" Description="Transformer Power Rating for 4.16kV" >
+    <Answer ID="414" Description="6/8/10" Proceed_With="81" />
+    <Answer ID="470" Description="7.2/9.6/12" Proceed_With="83" />
+    <Answer ID="415" Description="9/12/15" Proceed_With="83" />
+    <Answer ID="471" Description="9.6/12.8/16" Proceed_With="83" />
+    <Answer ID="416" Description="12/16/20" Proceed_With="83" />
+  </Question>
+  <Question ID="176" SortOrder="750" QuestionType="Linked_Choice" LinkedQuestion="9" >
+    <Answer ID="445" Proceed_With="75" />
+    <Answer ID="446" Proceed_With="75" />
+    <Answer ID="447" Proceed_With="76" />
+  </Question>
+  <Question ID="177" SortOrder="760" QuestionType="Linked_Choice" LinkedQuestion="25" >
+    <Answer ID="448" Proceed_With="30" />
+    <Answer ID="450" Proceed_With="78" />
+    <Answer ID="451" Proceed_With="78" />
+    <Answer ID="452" Proceed_With="78" />
+    <Answer ID="453" Proceed_With="77" />
+    <Answer ID="454" Proceed_With="77" />
+  </Question>
+  <Question ID="178" SortOrder="770" QuestionType="Linked_Choice" LinkedQuestion="25" >
+    <Answer ID="449" Proceed_With="30" />
+    <Answer ID="455" Proceed_With="79" />
+    <Answer ID="456" Proceed_With="79" />
+    <Answer ID="457" Proceed_With="79" />
+    <Answer ID="458" Proceed_With="79" />
+    <Answer ID="459" Proceed_With="79" />
+  </Question>
+  <Question ID="74" SortOrder="780" Description="Transformer Power Rating for 138/34.5 or 24.9kV" >
+    <Answer ID="393" Description="6/8/10" Proceed_With="81" />
+    <Answer ID="472" Description="7.2/9.6/12" Proceed_With="81" />
+    <Answer ID="392" Description="9/12/15" Proceed_With="81" />
+    <Answer ID="473" Description="9.6/12.8/16" Proceed_With="81" />
+    <Answer ID="179" Description="12/16/20" Proceed_With="81" />
+    <Answer ID="180" Description="15/20/25" Proceed_With="81" />
+    <Answer ID="181" Description="30/40/50" Proceed_With="83" />
+    <Answer ID="182" Description="60/80/100" Proceed_With="83" />
+  </Question>
+  <Question ID="159" SortOrder="790" Description="Transformer Power Rating for 138/15kV Class" >
+    <Answer ID="367" Description="6/8/10" Proceed_With="81" />
+    <Answer ID="474" Description="7.2/9.6/12" Proceed_With="81" />
+    <Answer ID="368" Description="9/12/15" Proceed_With="81" />
+    <Answer ID="475" Description="9.6/12.8/16" Proceed_With="81" />
+    <Answer ID="369" Description="12/16/20" Proceed_With="81" />
+    <Answer ID="370" Description="15/20/25" Proceed_With="81" />
+    <Answer ID="400" Description="30/40/50" Proceed_With="83" />
+  </Question>
+  <Question ID="174" SortOrder="800" Description="Transformer Power Rating for 69/12.47-34.5kV" Proceed_With="81" >
+    <Answer ID="434" Description="6/8/10" />
+    <Answer ID="476" Description="7.2/9.6/12" />
+    <Answer ID="435" Description="9/12/15" />
+    <Answer ID="477" Description="9.6/12.8/16" />
+    <Answer ID="436" Description="12/16/20" />
+    <Answer ID="437" Description="15/20/25" />
+  </Question>
+  <Question ID="165" SortOrder="810" Description="Transformer Power Rating for 4.16kV" >
+    <Answer ID="401" Description="6/8/10" Proceed_With="81" />
+    <Answer ID="478" Description="7.2/9.6/12" Proceed_With="83" />
+    <Answer ID="402" Description="9/12/15" Proceed_With="83" />
+    <Answer ID="479" Description="9.6/12.8/16" Proceed_With="83" />
+    <Answer ID="403" Description="12/16/20" Proceed_With="83" />
+  </Question>
+  <Question ID="180" SortOrder="820" QuestionType="Linked_Choice" LinkedQuestion="8" >
+    <Answer ID="484" Proceed_With="82" />
+    <Answer ID="485" Proceed_With="82" />
+    <Answer ID="486" Proceed_With="83" />
+    <Answer ID="487" Proceed_With="82" />
+    <Answer ID="488" Proceed_With="83" />
+    <Answer ID="489" Proceed_With="83" />
+  </Question>
+  <Question ID="154" SortOrder="830" Description="Voltage Regulation" Proceed_With="84" >
+    <Answer ID="353" Description="Unregulated" />
+    <Answer ID="491" Description="HV On-Load Tap Changer" />
+    <Answer ID="354" Description="LV On-Load Tap Changer" />
+    <Answer ID="355" Description="Main Bus Voltage Regulators" />
+  </Question>
+  <Question ID="161" SortOrder="840" Description="Voltage Regulation" Proceed_With="84" >
+    <Answer ID="374" Description="Unregulated" />
+    <Answer ID="492" Description="HV On-Load Tap Changer" />
+    <Answer ID="375" Description="LV On-Load Tap Changer" />
+  </Question>
+  <Question ID="75" SortOrder="850" Description="Connection, Primary/Secondary" >
+    <Answer ID="183" Description="D/y" Proceed_With="88" />
+    <Answer ID="184" Description="Y/y" Proceed_With="30" />
+  </Question>
+  <Question ID="76" SortOrder="860" Description="MV Phase Displacement (Vector Group)" Proceed_With="87" >
+    <Answer ID="185" Description="1" />
+    <Answer ID="187" Description="11" />
+  </Question>
+  <Question ID="77" SortOrder="870" Description="MV Phase Displacement (Vector Group)" Proceed_With="87" >
+    <Answer ID="186" Description="0" />
+  </Question>
+  <Question ID="78" SortOrder="880" QuestionType="Linked_Choice" LinkedQuestion="84" >
+    <Answer ID="188" Proceed_With="88" />
+    <Answer ID="189" Proceed_With="30" />
+  </Question>
+  <Question ID="79" SortOrder="890" Description="HV Neutral Grounding" >
+    <Answer ID="190" Description="Ungrounded" Proceed_With="92" />
+  </Question>
+  <Question ID="83" SortOrder="900" Description="Transformer Phase Sequence" >
+    <Answer ID="198" Description="H1 H2 H3 / (X0) X3 X2 X1" Image="IMAGES_ANSI/Phase Sequence 4.gif" Proceed_With="92" />
+    <Answer ID="200" Description="H3 H2 H1 / (X0) X1 X2 X3" Image="IMAGES_ANSI/Phase Sequence 3.gif" Proceed_With="92" />
+  </Question>
+  <Question ID="80" SortOrder="910" Description="HV Neutral Grounding" >
+    <Answer ID="193" Description="Ungrounded" />
+    <Answer ID="192" Description="Impedance" />
+    <Answer ID="191" Description="Solid" />
+  </Question>
+  <Question ID="82" SortOrder="920" Description="Transformer Phase Sequence" >
+    <Answer ID="199" Description="(H0) H1 H2 H3 / (X0) X3 X2 X1" Image="IMAGES_ANSI/Phase Sequence 2.gif" />
+    <Answer ID="197" Description="(H0) H3 H2 H1 / (X0) X1 X2 X3" Image="IMAGES_ANSI/Phase Sequence 1.gif" />
+  </Question>
+  <Question ID="81" SortOrder="930" Description="MV Neutral Grounding" >
+    <Answer ID="196" Description="Ungrounded" />
+    <Answer ID="195" Description="Impedance" />
+    <Answer ID="194" Description="Solid" />
+  </Question>
+  <Question ID="136" SortOrder="940" Description="Please note any comments or deviations to the Power Transformer options:" QuestionType="FreeText" >
+    <Answer ID="315" />
+  </Question>
+  <Question ID="84" SortOrder="950" Description="End Power Transformer Section" >
+    <Answer ID="201" />
+  </Question>
+  <Question ID="158" SortOrder="960" Description="Relays and Panels" >
+    <Answer ID="364" Description="Provided and installed by ABB" Proceed_With="96" />
+    <Answer ID="365" Description="Relays by ABB, installed in existing panels" Proceed_With="96" />
+    <Answer ID="366" Description="Provided and installed by customer" Proceed_With="107" />
+  </Question>
+  <Question ID="85" SortOrder="970" QuestionType="Linked_Choice" LinkedQuestion="8" >
+    <Answer ID="202" Proceed_With="97" />
+    <Answer ID="207" Proceed_With="102" />
+    <Answer ID="208" Proceed_With="97" />
+    <Answer ID="461" Proceed_With="97" />
+    <Answer ID="209" Proceed_With="97" />
+    <Answer ID="210" Proceed_With="97" />
+  </Question>
+  <Question ID="87" SortOrder="980" Description="Line Protection" >
+    <Answer ID="204" Description="Yes" Proceed_With="98" />
+    <Answer ID="211" Description="No" Proceed_With="99" />
+  </Question>
+  <Question ID="98" SortOrder="990" Description="REVAL 2.0 Software License" >
+    <Answer ID="228" Description="No" />
+    <Answer ID="226" Description="Yes" />
+  </Question>
+  <Question ID="91" SortOrder="1000" Description="StarCoupler Communications" >
+    <Answer ID="215" Description="No" Proceed_With="104" />
+    <Answer ID="213" Description="Yes" Proceed_With="30" />
+  </Question>
+  <Question ID="93" SortOrder="1010" Description="Gateway (Protocol Converter)" >
+    <Answer ID="217" Description="None" Proceed_With="101" />
+    <Answer ID="216" Description="ModBus" Proceed_With="106" />
+    <Answer ID="221" Description="DNP 3.0" Proceed_With="106" />
+    <Answer ID="222" Description="Other (TBD)" Proceed_With="106" />
+  </Question>
+  <Question ID="94" SortOrder="1020" Description="Remote Operation Capability (MicroSCADA)" Proceed_With="107" >
+    <Answer ID="220" Description="No" />
+    <Answer ID="218" Description="Yes" />
+  </Question>
+  <Question ID="86" SortOrder="1030" Description="Line Protection" >
+    <Answer ID="203" Description="N/A in H1 LTB Lite" />
+  </Question>
+  <Question ID="88" SortOrder="1040" Description="StarCoupler Communications" >
+    <Answer ID="205" Description="N/A in H1 LTB Lite" />
+  </Question>
+  <Question ID="89" SortOrder="1050" Description="Gateway (Protocol Converter)" >
+    <Answer ID="206" Description="N/A without StarCoupler" />
+  </Question>
+  <Question ID="90" SortOrder="1060" Description="Remote Operation Capability (MicroSCADA)" Proceed_With="107" >
+    <Answer ID="212" Description="N/A without StarCoupler" />
+  </Question>
+  <Question ID="109" SortOrder="1070" Description="Remote Operation Capability (MicroSCADA)" >
+    <Answer ID="244" Description="N/A with Gateway" />
+  </Question>
+  <Question ID="156" SortOrder="1080" Description="Control Power Source" >
+    <Answer ID="357" Description="Control Power Transformer (ABB Provided)" />
+    <Answer ID="358" Description="Customer Provided Power" />
+  </Question>
+  <Question ID="157" SortOrder="1090" Description="Control Cable Routing" >
+    <Answer ID="359" Description="Above ground cable tray" />
+    <Answer ID="360" Description="Precast trench" />
+    <Answer ID="361" Description="Direct burried armored cable" />
+    <Answer ID="362" Description="Direct burried PVC conduit" />
+    <Answer ID="363" Description="Concrete encased conduit (duct bank)" />
+  </Question>
+  <Question ID="92" SortOrder="1100" Description="End of Control and Protection Section" >
+    <Answer ID="214" />
+  </Question>
+</Protocol>

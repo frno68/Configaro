@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Object id="SE">
+  <Representation>
+    <img expression="21 or 22" src="_Resources/SE.jpg" id="SE" class="item" />
+    <img expression="20" src="_Resources/SE_cu.jpg" id="SE" class="item" />
+  </Representation>
+  <Content id="SE">
+    <div expression="20 and 11" currency="SEK" amount="20">B%F6jt r%F6r i koppar 10mm</div>
+    <div expression="20 and 12" currency="SEK" amount="23">B%F6jt r%F6r i koppar 12mm</div>
+    <div expression="21 and 11" currency="SEK" amount="25">B%F6jt r%F6r i prisol 10 mm</div>
+    <div expression="21 and 12" currency="SEK" amount="27">B%F6jt r%F6r i prisol 12 mm</div>
+    <div expression="22 and 11" currency="SEK" amount="30">B%F6jt r%F6r i rostfritt 10mm</div>
+    <div expression="22 and 12" currency="SEK" amount="30">B%F6jt r%F6r i rostfritt 12mm</div>
+  </Content>
+  <Summary id="SE">
+    <div>Detta %E4r ett 90 graders vinklat r%F6r S%F6der %D6ster</div>
+  </Summary>
+</Object>

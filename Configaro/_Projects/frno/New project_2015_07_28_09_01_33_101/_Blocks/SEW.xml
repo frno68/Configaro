@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Object id="SEW">
+  <Representation>
+    <img expression="21 or 22" src="_Resources/SEW.jpg" id="SEW" class="item" />
+    <img expression="20" src="_Resources/SEW_cu.jpg" id="SEW" class="item" />
+  </Representation>
+  <Content id="SEW">
+    <div expression="20 and 11" currency="SEK" amount="20">Trev%E4gskoppling i koppar 10mm</div>
+    <div expression="20 and 12" currency="SEK" amount="23">Trev%E4gskoppling i koppar 12mm</div>
+    <div expression="21 and 11" currency="SEK" amount="25">Trev%E4gskoppling i prisol 10 mm</div>
+    <div expression="21 and 12" currency="SEK" amount="27">Trev%E4gskoppling i prisol 12 mm</div>
+    <div expression="22 and 11" currency="SEK" amount="30">Trev%E4gskoppling i rostfritt 10mm</div>
+    <div expression="22 and 12" currency="SEK" amount="30">Trev%E4gskoppling i rostfritt 12mm</div>
+  </Content>
+  <Summary id="SEW">
+    <div>Detta %E4r en trev%E4gskoppling S%F6der %D6ster V%E4ster</div>
+  </Summary>
+</Object>

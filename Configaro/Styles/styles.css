@@ -1,0 +1,30 @@
+﻿.grid {
+    border: solid 1px black;
+    background-color: Silver;
+}
+.gridrow {  
+}
+.gridcell {
+    width: 32px;
+    height: 32px;
+    border: dotted 1px gray;
+    text-align:center; 
+    white-space:pre;
+}
+
+.item {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #C0C0C0;
+}
+.itemselected {
+    border: solid 1px blue;
+}
+.itemnotallowed {
+    border: solid 2px #FF0000;
+}
+
+.droparea {
+    background-color: #B1D5AC;
+    cursor:pointer;
+}

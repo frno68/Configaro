@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Object id="EW">
+  <Representation>
+    <img src="_Resources/EW.jpg" expression="21 or 22" id="EW" class="item" />
+<img src="_Resources/EW_cu.jpg" expression="20" id="EW" class="item" /></Representation>
+  <Content id="EW">
+    <div expression="20 and 11">
+    <div expression="23" currency="SEK" amount="20">Rakt svenskt rör i koppar 10mm</div>
+    <div expression="24" currency="USD" amount="18">Rakt amerikanskt rör i koppar 10mm</div>
+</div>
+<div expression="20 and 12" currency="SEK" amount="23">Rakt rör i koppar 12mm</div>
+<div expression="21 and 11" currency="SEK" amount="25">Rakt rör i prisol 10 mm</div>
+<div expression="21 and 12" currency="SEK" amount="27">Rakt rör i prisol 12 mm</div>
+<div expression="22 and 11" currency="SEK" amount="30">Rakt rör i rostfritt 10mm</div>
+<div expression="22 and 12" currency="SEK" amount="30">Rakt rör i rostfritt 12mm</div></Content>
+  <Summary id="EW">
+    <div>Detta är ett rakt rör %D6ster-Väster</div>
+  </Summary>
+</Object>

@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<Protocol>
+  <Question ID="5" SortOrder="10" Description="Geografisk placering">
+    <Answer ID="23" Selected="False" Description="Sverige" />
+    <Answer ID="24" Selected="False" Description="USA" />
+  </Question>
+  <Question ID="4" SortOrder="20" Description="Material">
+    <Answer ID="20" Selected="False" Description="Koppar" />
+    <Answer ID="21" Selected="False" Description="Prisol" Proceed_With="40" />
+    <Answer ID="22" Selected="False" Description="Rostfritt" />
+  </Question>
+  <Question ID="2" SortOrder="30" Description="Isolering">
+    <Answer ID="10" Selected="False" Description="Ingen" />
+    <Answer ID="0" Selected="False" Description="20mm" />
+    <Answer ID="8" Selected="False" Description="30mm" />
+  </Question>
+  <Question ID="1" SortOrder="40" Description="Dimension">
+    <Answer ID="11" Selected="False" Description="10 mm" />
+    <Answer ID="12" Selected="False" Description="12 mm" />
+  </Question>
+</Protocol>
